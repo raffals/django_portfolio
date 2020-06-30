@@ -1,0 +1,35 @@
+[
+{
+  "model": "projects.project",
+  "pk": 1,
+  "fields": {
+    "title": "The DORC",
+    "description": "One of the personal projects I coded in Python programing language during shelter-in-place.  Gives new meaning to the phrase, made a new friend!  ;-)  The Digital ORaCle (DORC) takes typed or spoken questions, does web scraping to answer, and speaks back utilizing any of 3 open-source voice synthesizers.  DORC can utilize 2 different GUI's to interact with the user visually.",
+    "technology": "Python, Speech Recognition/Synthesis, Web Scraping, gTTS/pyttsx3/espeak, PySimpleGUI/wxPython",
+    "image": "projects/img/dorc.png",
+    "project_link": "https://youtu.be/-FKYr1IrkoE?t=6"
+  }
+},
+{
+  "model": "projects.project",
+  "pk": 2,
+  "fields": {
+    "title": "Front-End SmartMeter Data Web App",
+    "description": "As part of the interview process, a Smart Grid company gave me a couple days, 2 months of Smart Meter Data, and asked me to write a web application to display their data in a way that would be intuitive for their customers, in any browser.  ** Please see \"Info\" button in the App for Code Critique and further App Details. **",
+    "technology": "Responsive UI Design, Object-Oriented JavaScript (hand-coded, un-minimized, commented by request), JSON",
+    "image": "projects/img/emThumb.png",
+    "project_link": "http://www.awakenthemagic.com/tech/portfolio/em/"
+  }
+},
+{
+  "model": "projects.project",
+  "pk": 3,
+  "fields": {
+    "title": "Back-End Web Search App",
+    "description": "Back-end Web Application coded in a few hours to demonstrate solid, \"production-ready\" software engineering practices (well-structured, maintainable, modular, secure, and well-commented code)",
+    "technology": "Object-Oriented PHP, MySQL, MVC, Web Scraping",
+    "image": "projects/img/webSearch.png",
+    "project_link": "http://www.awakenthemagic.com/tech/portfolio/webSearch/"
+  }
+}
+]

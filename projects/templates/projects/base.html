@@ -7,6 +7,20 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+      .carousel-caption {
+        position: relative;
+        left: 0;
+        top: 0;
+        border-radius: 25px;
+        h5 { font-size: 1rem; }
+        p { padding: 0 20px 0 20px; margin: 0 20px 0 20px; }
+      }
+      .carousel-control-next,
+      .carousel-control-prev {
+        filter: invert(100%);
+      }
+    </style>
 
     <title>Rich Raffals' Software Development Portfolio</title>
 
@@ -23,7 +37,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="{% url 'projects:all_projects' %}">Home</a>
+              <script>document.write('<a href="' + document.referrer + '">Back</a>');</script>
             </li>
           </ul>
         </div>

@@ -1,1 +1,1 @@
-prod_settings.py
+local_settings.py

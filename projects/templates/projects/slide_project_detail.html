@@ -6,7 +6,7 @@
 <h1 class="pt-2 text-center">{{ project.title }}</h1>
 <div class="p-4 row">
     <div class="col-md-8">
-	  <a href="{{ project.project_link }}" target="_blank">
+	  <a href="{% url 'projects:project_slides' project.pk %}">
         <img src="{% static project.image %}"  alt="screenshot for {{project.title}} project" width="100%">
 	  </a>
     </div>
@@ -16,7 +16,7 @@
         <br>
         <h5>Technology used:</h5>
         <p>{{ project.technology }}</p>
-        <a href="{{ project.project_link }}" class="btn btn-primary" target="_blank">Check it out</a>
+        <a href="{% url 'projects:project_slides' project.pk %}" class="btn btn-primary">Check it out</a>
         <a href="{% url 'projects:all_projects' %}"  class="btn btn-primary">Back to Portfolio</a>
     </div>
 </div>

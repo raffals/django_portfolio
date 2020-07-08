@@ -63,9 +63,9 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
-# Database
-*.sqlite3
-db.sqlite3-journal
+# Database (sqlite ok with pythonanywhere, prob not Heroku)
+#*.sqlite3
+#db.sqlite3-journal
 
 # Flask stuff:
 instance/

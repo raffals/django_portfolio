@@ -14,11 +14,14 @@
         top: 0;
         border-radius: 25px;
         h5 { font-size: 1rem; }
-        p { padding: 0 20px 0 20px; margin: 0 20px 0 20px; }
       }
       .carousel-control-next,
       .carousel-control-prev {
         filter: invert(100%);
+        z-index: 1000;
+      }
+      @media all { /* Keep slide images of similar height */
+         .carousel-item>img { max-height: 500px; }
       }
     </style>
 

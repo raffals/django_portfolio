@@ -53,7 +53,7 @@
     "order": 2,
     "title": "Altera Corporate Website Redesign",
     "description": "Development and management of separate websites for US, Japan and China, as well as secure and non-secure domains for each of those sites (6 total sites).  Each site featured geo-specific videos by region of country or groups of country (eg, European-only countries), integrated social media and podcasts and press releases as animated news feeds, etc.  State-of-the-art at that time, these features exceeded internal- and customer- generated targets for customer support and satisfaction, and modernized Altera's web presence and services.",
-    "technology": "End-to-end development in Java, JavaScript, Flash, HTML/CSS.  Also significant back-end, infrastructure programming (Perl, Java) to interface with existing CMS, and other internal legacy processes, yet provide a smooth and flexible path for robust upward expansion.",
+    "technology": "End-to-end development in Java, JavaScript, Flash, HTML/CSS.  Significant back-end, infrastructure programming (Perl, Java) to interface with existing CMS, and other internal legacy processes, yet provide a smooth and flexible path for robust upward expansion.",
     "image": "projects/img/alteraWebThumb.png"
   }
 },

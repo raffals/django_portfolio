@@ -7,7 +7,7 @@ class Project(models.Model):
     order = models.PositiveSmallIntegerField(default=1)
     title = models.CharField(max_length=100, default='')
     description = models.TextField(default='')
-    technology = models.CharField(max_length=300)
+    technology = models.TextField(default='')
     image = models.CharField(max_length=100)
     project_link = models.URLField(blank=True)
 
@@ -19,7 +19,7 @@ class SlideShowProject(models.Model):
     order = models.PositiveSmallIntegerField(default=1)
     title = models.CharField(max_length=100, default='')
     description = models.TextField(default='')
-    technology = models.CharField(max_length=300)
+    technology = models.TextField(default='')
     image = models.CharField(max_length=100)
 
 

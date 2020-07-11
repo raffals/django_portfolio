@@ -2,11 +2,8 @@
 
 ## Difference between local and production areas:
 
-* LOCAL:
+LOCAL:
 
-	* local_requirements.txt  
-	   * -- NO: python-dotenv==0.14.0 (only required to setup pAnywhere environment)  
- 
 * Untracked files:
 
     * portfolio/settings.py -> local_settings.py (omit since don't want to have to
@@ -18,7 +15,7 @@
 	
 <hr />
 
-* PythonAnywhere PRODUCTION: 
+PRODUCTION: PythonAnywhere (separate git branch not required)
 
 * Untracked files:
 	* portfolio/settings.py -> prod_settings.py (omit since don't want to have to
@@ -26,33 +23,45 @@
        the local & prod areas) 
 	* portfolio/prod_settings.py (upload directly = don't want in public repo)
 	* prod_requirements.txt (better security if don't include this in public repo)
-      * -- YES: python-dotenv==0.14.0  (only required to setup pAnywhere environment) 
+      * INCLUDES: python-dotenv==0.14.0  (dotenv only required to setup pAnywhere
+        environment; rest is same as local_requirements.txt) 
 	* staticfiles/
 
 <hr />
 
-Heroku PRODUCTION:
+PRODUCTION: Heroku
 
+<hr />
+<hr />
 
 ## Deployment Steps:
 
-* LOCAL:
+LOCAL:
 
 * Make changes
-  * May include (if made changes to DB via JSON): ./manage.py loaddata projectsSlides.json 
-  * May include (if made direct changes to DB): ./manage.py dumpdata --indent 2 projects > projectsSlides.json
+  * May include (if made changes to DB via JSON):
+	* ./manage.py loaddata projectsSlides.json 
+  * May include (if made direct changes to DB):
+	* ./manage.py dumpdata --indent 2 projects > projectsSlides.json
+  * May include (if made significant changes to models.py):
+	* python manage.py makemigrations
+	* python manage.py migrate
 * git add
 * git commit
 * git push
 
-* PRODUCTION:
+<hr />
+ 
+PRODUCTION: PythonAnywhere
 
-* git pull --ff-only
+* git pull --ff-only 
+* May include (If change to static files - eg, images):
+  * python manage.py collectstatic 
+  * If a file's missing, use: python manage.py findstatic <filename\>
+* Reload raffals.pythonanywhere.com
 
-  * PythonAnywhere: 
-	* If change to static files (eg, images): python manage.py collectstatic 
-	  * If a file's missing, use: python manage.py findstatic <filename>
-	  * Reload raffals.pythonanywhere.com
+<hr />
 
-  * Heroku:
+PRODUCTION: Heroku
 
+<hr />

@@ -5,7 +5,6 @@ from projects.models import Project, SlideShowProject, Slide
 admin.site.register(Project)
 admin.site.register(SlideShowProject)
 admin.site.register(Slide)
->>>>>>> refs/remotes/origin/master
 
 # Admin area customizations
 admin.site.site_header = "Portfolio Admin"

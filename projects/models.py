@@ -32,5 +32,3 @@ class Slide(models.Model):
     title = models.CharField(max_length=100, default='')
     description = models.TextField(default='')
     image = models.CharField(max_length=100)
->>>>>>> refs/remotes/origin/master
-    

@@ -1,6 +1,6 @@
 # django_portfolio
 
-##DIFFERENCE BETWEEN LOCAL AND PRODUCTION BRANCHES:
+## DIFFERENCE BETWEEN LOCAL AND PRODUCTION BRANCHES:
 
 * LOCAL:
 
@@ -13,7 +13,6 @@
        update everytime we do a pull/clone/etc. = just create once when setting up
        the local & prod areas) 
 	* portfolio/prod_settings.py (upload directly = don't want in public repo)
-	* projectsSlides1.json
 	* steps.txt
 	* projects/static/projects/img/emThumb786x875.png 
 	

@@ -221,5 +221,82 @@
     "description": "Object-Oriented Classes and DataBase Tables to implement the User Admin, Package Admin, and Scheduling functions",
     "image": "projects/img/dfly/devDoc2.jpg"
   }
+},
+{
+  "model": "projects.slideshowproject",
+  "pk": 2,
+  "fields": {
+    "order": 2,
+    "title": "Altera Corporate Website Redesign",
+    "description": "Project entailed development and management of separate websites for US, Japan and China, as well as secure and non-secure domains for each of those sites (6 total sites).  Each site featured geo-specific videos by region of country or groups of country (eg, European-only countries), integrated podcasts and press releases as animated news feeds, social media and other features.  State-of-the-art at that time, these features both exceeded internal- and customer- generated targets for customer support and satisfaction, and modernized Altera's web presence and services.",
+    "technology": "End-to-end development in Java, JavaScript, Flash, HTML/CSS.  Also significant back-end, infrastructure programming (Perl, Java) to interface with existing CMS, and other internal legacy processes, yet provide a smooth and flexible path for robust upward expansion.",
+    "image": "projects/img/alteraWebThumb.png"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 1,
+  "fields": {
+    "project": 2,
+    "order": 1,
+    "title": "BEFORE REDESIGN: Altera's USA Corporate Home Page",
+    "description": "",
+    "image": "projects/img/altera/alteraUSpre2-4-12.png"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 2,
+  "fields": {
+    "project": 2,
+    "order": 2,
+    "title": "AFTER REDESIGN: Altera's USA Corporate Home Page",
+    "description": "Top portion of screen plays one of the three, geo-aware live video selections in the boxes across the middle of the screen.  The videos, and the news feeds that cycle in the \"What's New?\" area are easily updated by internal, non-tech users.",
+    "image": "projects/img/altera/alteraNewUS.png"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 3,
+  "fields": {
+    "project": 2,
+    "order": 3,
+    "title": "BEFORE REDESIGN: Altera's China Corporate Home Page",
+    "description": "",
+    "image": "projects/img/altera/alteraCNpre2-4-12.png"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 4,
+  "fields": {
+    "project": 2,
+    "order": 4,
+    "title": "AFTER REDESIGN: Altera's China Corporate Home Page",
+    "description": "Top portion of screen plays one of the three, geo-aware live video selections in the boxes across the middle of the screen.  The videos, and the news feeds that cycle in the \"What's New?\" area are easily updated by internal, non-tech users.",
+    "image": "projects/img/altera/alteraNewCn.png"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 5,
+  "fields": {
+    "project": 2,
+    "order": 5,
+    "title": "BEFORE REDESIGN: Altera's Japan Corporate Home Page",
+    "description": "",
+    "image": "projects/img/altera/alteraJPpre2-4-12.png"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 6,
+  "fields": {
+    "project": 2,
+    "order": 6,
+    "title": "AFTER REDESIGN: Altera's Japan Corporate Home Page",
+    "description": "Top portion of screen plays one of the three, geo-aware live video selections in the boxes across the middle of the screen.  The videos, and the news feeds that cycle in the \"What's New?\" area are easily updated by internal, non-tech users.",
+    "image": "projects/img/altera/alteraNewJp.png"
+  }
 }
 ]

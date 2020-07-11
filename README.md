@@ -1,6 +1,6 @@
 # django_portfolio
 
-## DIFFERENCE BETWEEN LOCAL AND PRODUCTION AREAS:
+## Difference between local and production areas:
 
 * LOCAL:
 
@@ -33,4 +33,26 @@
 
 Heroku PRODUCTION:
 
+
+## Deployment Steps:
+
+* LOCAL:
+
+* Make changes
+  * May include (if made changes to DB via JSON): ./manage.py loaddata projectsSlides.json 
+  * May include (if made direct changes to DB): ./manage.py dumpdata --indent 2 projects > projectsSlides.json
+* git add
+* git commit
+* git push
+
+* PRODUCTION:
+
+* git pull --ff-only
+
+  * PythonAnywhere: 
+	* If change to static files (eg, images): python manage.py collectstatic 
+	  * If a file's missing, use: python manage.py findstatic <filename>
+	  * Reload raffals.pythonanywhere.com
+
+  * Heroku:
 

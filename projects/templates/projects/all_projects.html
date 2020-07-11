@@ -4,9 +4,9 @@
 
 {% block page_content %}
 
-<div class="container">
-    <h2 class="pt-2 text-center">Sample Software Projects | Rich Raffals</h2>
-    <h4 class="pl-3 pr-3 font-italic text-center">This portfolio was a shelter-in-place project coded in Python, utilizing the Django MVC framework and Bootstrap responsive CSS framework.</h4>
+<div class="container-fluid">
+    <h3 class="pt-2 text-center">Sample Software Projects | Rich Raffals</h3>
+    <h5 class="pl-3 pr-3 font-italic text-center">This portfolio was a shelter-in-place project coded in Python, utilizing the Django MVC framework and Bootstrap responsive CSS framework.</h5>
     <div class="p-4 row">
     {% for project in projects %}
         <div class="col-md-4">
@@ -22,8 +22,16 @@
             </div>
         </div>
     {% endfor %}
+</div>
 
-    {% for project in slide_projects %}
+<div class="container-fluid">
+    <div class="alert alert-success">
+	    <h5 class="font-italic text-center">Proprietary Projects</h5>
+	</div>
+</div>
+
+<div class="container-fluid">
+	{% for project in slide_projects %}
         <div class="col-md-4">
             <div class="card mb-2">
                 <a href="{% url 'projects:slide_project_detail' project.pk %}">

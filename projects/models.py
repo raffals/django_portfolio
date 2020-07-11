@@ -24,7 +24,7 @@ class SlideShowProject(models.Model):
 
 
 class Slide(models.Model):
-    def __str__(self):  # Print project in admin interface
+    def __str__(self):  # Print slide title in admin interface
         return self.title  # or any of the other appropriate variables
 
     project = models.ForeignKey(SlideShowProject, on_delete=models.CASCADE)

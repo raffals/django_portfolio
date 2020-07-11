@@ -28,13 +28,11 @@ def slide_project_detail(request, pk):
     # Query the db to return project id=pk object
     project = SlideShowProject.objects.get(pk=pk)
     print(project)
-    #slides = Slide.objects.get(project=pk)
-    #print(slides)
     return render(request, 'projects/slide_project_detail.html', {'project': project})
 
 def project_slides(request, pk):
     # Query the db to return project id=pk object
     project = SlideShowProject.objects.get(pk=pk)
-    #slides = Slide.objects.all()
+    # Return just the slides for this project
     slides = Slide.objects.filter(project=pk)
     return render(request, 'projects/project_slides.html', {'project': project, 'slides': slides})

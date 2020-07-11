@@ -62,6 +62,7 @@ coverage.xml
 
 # Django stuff:
 *.log
+# settings.py should be symlink to prod_settings.py or local_settings.py
 local_settings.py
 # Database (sqlite ok with pythonanywhere, prob not Heroku)
 #*.sqlite3

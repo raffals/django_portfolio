@@ -16,8 +16,23 @@
                 </a>
                 <div class="card-body">
                     <h5 class="card-title">{{ project.title }}</h5>
-                    <p class="card-text">{{ project.description }}</p>
+                    <p class="card-text">{{ project.description|safe|truncatewords:45 }}</p>
                     <a href="{% url 'projects:project_detail' project.pk %}" class="btn btn-primary">Project Details</a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+
+    {% for project in slide_projects %}
+        <div class="col-md-4">
+            <div class="card mb-2">
+                <a href="{% url 'projects:slide_project_detail' project.pk %}">
+                    <img class="card-img-top" src="{% static project.image %}" alt="screenshot of {{ project.title }} project">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">{{ project.title }}</h5>
+                    <p class="card-text">{{ project.description|safe|truncatewords:45 }}</p>
+                    <a href="{% url 'projects:slide_project_detail' project.pk %}" class="btn btn-primary">Project Details</a>
                 </div>
             </div>
         </div>

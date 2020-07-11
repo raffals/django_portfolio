@@ -8,17 +8,17 @@
 
 <div class="p-4 row">
     <div class="col-md-8">
-	  <a href="{{ project.project_link }}" target="_blank">
+	  <a href="{% url 'projects:project_slides' project.pk %}">
         <img src="{% static project.image %}"  alt="screenshot for {{project.title}} project" width="100%">
 	  </a>
     </div>
     <div class="col-md-4">
-        <h5>About the project:</h5>
-        <p>{{ project.description|safe }}</p>
+        <h5 class="card-title">About the project:</h5>
+        <p class="card-text">{{ project.description|safe }}</p>
         <br>
         <h5>Technology used:</h5>
         <p>{{ project.technology }}</p>
-        <a href="{{ project.project_link }}" class="btn btn-primary" target="_blank">Check it out</a>
+        <a href="{% url 'projects:project_slides' project.pk %}" class="btn btn-primary">Check it out</a>
         <a href="{% url 'projects:all_projects' %}"  class="btn btn-primary">Back to Portfolio</a>
     </div>
 </div>

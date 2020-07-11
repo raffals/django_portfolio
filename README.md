@@ -1,38 +1,36 @@
 # django_portfolio
 
-DIFFERENCE BETWEEN LOCAL AND PRODUCTION BRANCHES:
+##DIFFERENCE BETWEEN LOCAL AND PRODUCTION BRANCHES:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+* LOCAL:
 
-LOCAL:
-
-	local_requirements.txt  
-	  -- NO: python-dotenv==0.14.0 (only required to setup pAnywhere environment)  
+	* local_requirements.txt  
+	   * -- NO: python-dotenv==0.14.0 (only required to setup pAnywhere environment)  
  
-Untracked files:
+* Untracked files:
 
-    portfolio/settings.py -> local_settings.py (omit since don't want to have to
+    * portfolio/settings.py -> local_settings.py (omit since don't want to have to
        update everytime we do a pull/clone/etc. = just create once when setting up
        the local & prod areas) 
-	portfolio/prod_settings.py (upload directly = don't want in public repo)
-	projectsSlides1.json
-	steps.txt
-	projects/static/projects/img/emThumb786x875.png 
+	* portfolio/prod_settings.py (upload directly = don't want in public repo)
+	* projectsSlides1.json
+	* steps.txt
+	* projects/static/projects/img/emThumb786x875.png 
 	
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+<hr />
 
-PythonAnywhere PRODUCTION: 
+* PythonAnywhere PRODUCTION: 
 
-Untracked files:
-	portfolio/settings.py -> prod_settings.py (omit since don't want to have to
+* Untracked files:
+	* portfolio/settings.py -> prod_settings.py (omit since don't want to have to
        update everytime we do a pull/clone/etc. = just create once when setting up
        the local & prod areas) 
-	portfolio/prod_settings.py (upload directly = don't want in public repo)
-	prod_requirements.txt (better security if don't include this in public repo)
-      -- YES: python-dotenv==0.14.0  (only required to setup pAnywhere environment) 
-	staticfiles/
+	* portfolio/prod_settings.py (upload directly = don't want in public repo)
+	* prod_requirements.txt (better security if don't include this in public repo)
+      * -- YES: python-dotenv==0.14.0  (only required to setup pAnywhere environment) 
+	* staticfiles/
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<hr />
 
 Heroku PRODUCTION:
 

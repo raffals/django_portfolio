@@ -42,7 +42,7 @@
     "order": 1,
     "title": "Yahoo! Front Page",
     "description": "Non-tech creatives who don't necessarily know HTML, CSS, etc. (both internal employees and chosen vendors) use this application to create content/modules for use on Yahoo!'s US Front Page -- the most trafficked page on the internet at that time.<br />\r\n<br />This Web App was coded by hand from start to finish.  It has a built-in, real-time preview system for both the module being developed, and how the current Front Page (at www.yahoo.com) will look when the new module is added.  An integrated Help/FAQ system is also built in.  At time of completion, this internal tool was also already planned for use by Yahoo!'s Argentina, Mexico, Singapore, and Telemundo Front Pages, as well as by other groups with pages subordinate to both the US Front Page and some of the foreign Yahoo! Front Pages.",
-    "technology": "Object-Oriented PHP, Object-Oriented JavaScript, AJAX/JSON, MySQL DBs, Yahoo! User Interface (YUI) open-source JavaScript and CSS libraries, XHTML/CSS, and XML/XSLT templates on Unix/Linux/CVS platforms",
+    "technology": "Object-Oriented PHP, Object-Oriented JavaScript, AJAX/JSON, MySQL DBs, Object Relational Mapping (ORM), Yahoo! User Interface (YUI) open-source JavaScript and CSS libraries, XHTML/CSS, and XML/XSLT templates on Unix/Linux/CVS platforms",
     "image": "projects/img/dflyThumb.jpg"
   }
 },
@@ -52,7 +52,7 @@
   "fields": {
     "project": 1,
     "order": 1,
-    "title": "User-Interface for creating modules to be placed on a Yahoo! webpage",
+    "title": "User Interface to create modules for Home Pages of Yahoo! websites",
     "description": "In this screen-shot, pre-defined templates for the Pulse module of the narrow version of the US Front Page (www.yahoo.com) are displayed.",
     "image": "projects/img/dfly/dflyPulse.jpg"
   }
@@ -63,7 +63,7 @@
   "fields": {
     "project": 1,
     "order": 2,
-    "title": "Tool Overview",
+    "title": "User Docs: Tool Overview",
     "description": "Snippet from the integrated User Documentation",
     "image": "projects/img/dfly/userDoc0.png"
   }
@@ -74,7 +74,7 @@
   "fields": {
     "project": 1,
     "order": 3,
-    "title": "Terms and Templates used for Package/Module Creation",
+    "title": "User Docs: Terms & Templates used for Package/Module Creation",
     "description": "Snippet from the integrated User Documentation",
     "image": "projects/img/dfly/userDoc1.png"
   }
@@ -85,7 +85,7 @@
   "fields": {
     "project": 1,
     "order": 4,
-    "title": "Workflow to create module from existing template",
+    "title": "User Docs: Workflow to create module from existing template",
     "description": "Snippet from the integrated User Documentation",
     "image": "projects/img/dfly/userDoc2.jpg"
   }
@@ -129,9 +129,97 @@
   "fields": {
     "project": 1,
     "order": 8,
-    "title": "The User-Interface for creating modules to be placed on a Yahoo! webpage",
+    "title": "Mantle Ad Templates: UI to create modules to be placed on a Yahoo! webpage",
     "description": "In this screen-shot, pre-defined templates for the Mantle Ads module of the wide version of the US Front Page (www.yahoo.com) are displayed.",
     "image": "projects/img/dfly/dflyMantle.jpg"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 9,
+  "fields": {
+    "project": 1,
+    "order": 9,
+    "title": "Integrated User Docs w/screen-shot from live tool: Content Editing or RSS Feed Selection",
+    "description": "Once template is selected as a starting point for the look/feel of a new module, the content can be changed to meet the creator's desires.  Content can also be set to come from live RSS/XML feeds (selectable via the drop-down).",
+    "image": "projects/img/dfly/userDoc3w.jpg"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 10,
+  "fields": {
+    "project": 1,
+    "order": 10,
+    "title": "User Docs w/screen-shots from live tool: Display Template Code/Search for Saved Packages",
+    "description": "The actual HTML/CSS/JavaScript code for the module is also available, as is the ability to search the DataBase for packages of previously-created modules and templates.",
+    "image": "projects/img/dfly/userDoc4w.jpg"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 11,
+  "fields": {
+    "project": 1,
+    "order": 11,
+    "title": "Free-Form, WYSIWYG Editor with Live Preview (Spanish Template)",
+    "description": "Creatives can also design modules/templates from scratch, using an integrated, MS-Word-like, WYSIWYG free-form editor, with Live Preview.  This Spanish module is for Argentina's Front Page.",
+    "image": "projects/img/dfly/freeFormPulso2.jpg"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 12,
+  "fields": {
+    "project": 1,
+    "order": 12,
+    "title": "User Docs, w/screen-shot from live tool: Save/Export Options",
+    "description": "Several options for saving/exporting the final product are provided.",
+    "image": "projects/img/dfly/userDoc5.jpg"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 13,
+  "fields": {
+    "project": 1,
+    "order": 13,
+    "title": "Site Map of Functions",
+    "description": "\"Package Administration\", \"User Administration\", and several low-level functions are made available only to tech-saavy administrators with the proper privileges.",
+    "image": "projects/img/dfly/dflySiteMap.jpg"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 14,
+  "fields": {
+    "project": 1,
+    "order": 14,
+    "title": "User Workflows and Hierarchy of Internal Data Structures",
+    "description": "Snippet from Developer Docs",
+    "image": "projects/img/dfly/devDoc0.png"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 15,
+  "fields": {
+    "project": 1,
+    "order": 15,
+    "title": "Snippet from Developer Docs: Object Relational Mapping (ORM)",
+    "description": "Object-Oriented Classes and DataBase Tables to implement the Create Package and Create Module functions.  (A home-grown Object Relational Mapping system was implemented to map PHP Objects to MySQL Database Tables.)",
+    "image": "projects/img/dfly/devDoc1.jpg"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 16,
+  "fields": {
+    "project": 1,
+    "order": 16,
+    "title": "Snippet from Developer Docs: Object Relational Mapping (ORM)",
+    "description": "Object-Oriented Classes and DataBase Tables to implement the User Admin, Package Admin, and Scheduling functions",
+    "image": "projects/img/dfly/devDoc2.jpg"
   }
 }
 ]

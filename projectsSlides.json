@@ -95,6 +95,28 @@
   "pk": 3,
   "fields": {
     "project": 2,
+    "order": 1,
+    "title": "BEFORE REDESIGN: Altera's USA Corporate Home Page",
+    "description": "",
+    "image": "projects/img/altera/alteraUSpre2-4-12.png"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 4,
+  "fields": {
+    "project": 2,
+    "order": 2,
+    "title": "AFTER REDESIGN: Altera's USA Corporate Home Page",
+    "description": "Top portion of screen plays one of the three, geo-aware live video selections in the boxes across the middle of the screen.  The videos, and the news feeds that cycle in the \"What's New?\" area are easily updated by internal, non-tech users.",
+    "image": "projects/img/altera/alteraNewUS.png"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 5,
+  "fields": {
+    "project": 2,
     "order": 3,
     "title": "BEFORE REDESIGN: Altera's China Corporate Home Page",
     "description": "",
@@ -103,7 +125,7 @@
 },
 {
   "model": "projects.slide",
-  "pk": 4,
+  "pk": 6,
   "fields": {
     "project": 2,
     "order": 4,
@@ -114,7 +136,7 @@
 },
 {
   "model": "projects.slide",
-  "pk": 5,
+  "pk": 7,
   "fields": {
     "project": 2,
     "order": 5,
@@ -125,7 +147,7 @@
 },
 {
   "model": "projects.slide",
-  "pk": 6,
+  "pk": 8,
   "fields": {
     "project": 2,
     "order": 6,
@@ -136,7 +158,7 @@
 },
 {
   "model": "projects.slide",
-  "pk": 7,
+  "pk": 15,
   "fields": {
     "project": 1,
     "order": 7,
@@ -147,7 +169,7 @@
 },
 {
   "model": "projects.slide",
-  "pk": 8,
+  "pk": 16,
   "fields": {
     "project": 1,
     "order": 8,
@@ -158,7 +180,7 @@
 },
 {
   "model": "projects.slide",
-  "pk": 9,
+  "pk": 17,
   "fields": {
     "project": 1,
     "order": 9,
@@ -169,7 +191,7 @@
 },
 {
   "model": "projects.slide",
-  "pk": 10,
+  "pk": 18,
   "fields": {
     "project": 1,
     "order": 10,
@@ -180,7 +202,7 @@
 },
 {
   "model": "projects.slide",
-  "pk": 11,
+  "pk": 19,
   "fields": {
     "project": 1,
     "order": 11,
@@ -191,7 +213,7 @@
 },
 {
   "model": "projects.slide",
-  "pk": 12,
+  "pk": 20,
   "fields": {
     "project": 1,
     "order": 12,
@@ -202,7 +224,7 @@
 },
 {
   "model": "projects.slide",
-  "pk": 13,
+  "pk": 21,
   "fields": {
     "project": 1,
     "order": 13,
@@ -213,7 +235,7 @@
 },
 {
   "model": "projects.slide",
-  "pk": 14,
+  "pk": 22,
   "fields": {
     "project": 1,
     "order": 14,
@@ -224,7 +246,7 @@
 },
 {
   "model": "projects.slide",
-  "pk": 15,
+  "pk": 23,
   "fields": {
     "project": 1,
     "order": 15,
@@ -235,7 +257,7 @@
 },
 {
   "model": "projects.slide",
-  "pk": 16,
+  "pk": 24,
   "fields": {
     "project": 1,
     "order": 16,

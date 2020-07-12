@@ -108,7 +108,7 @@
     "project": 2,
     "order": 2,
     "title": "AFTER REDESIGN: Altera's USA Corporate Home Page",
-    "description": "Top portion of screen plays one of the three, geo-aware live video selections in the boxes across the middle of the screen.  The videos, and the news feeds that cycle in the \"What's New?\" area are easily updated by internal, non-tech users.",
+    "description": "Top portion of screen plays one of the three, geo-aware live video selections in the boxes across the middle of the screen.  The videos, and the news feeds that cycle in the \"What's New?\" area, are easily updated by non-tech folks in Corporate Marketing (internal portal provided).",
     "image": "projects/img/altera/alteraNewUS.png"
   }
 },
@@ -130,7 +130,7 @@
     "project": 2,
     "order": 4,
     "title": "AFTER REDESIGN: Altera's China Corporate Home Page",
-    "description": "Top portion of screen plays one of the three, geo-aware live video selections in the boxes across the middle of the screen.  The videos, and the news feeds that cycle in the \"What's New?\" area are easily updated by internal, non-tech users.",
+    "description": "Top portion of screen plays one of the three, geo-aware live video selections in the boxes across the middle of the screen.  The videos, and the news feeds that cycle in the \"What's New?\" area, are easily updated by non-tech folks in Corporate Marketing (internal portal provided).",
     "image": "projects/img/altera/alteraNewCn.png"
   }
 },
@@ -152,8 +152,74 @@
     "project": 2,
     "order": 6,
     "title": "AFTER REDESIGN: Altera's Japan Corporate Home Page",
-    "description": "Top portion of screen plays one of the three, geo-aware live video selections in the boxes across the middle of the screen.  The videos, and the news feeds that cycle in the \"What's New?\" area are easily updated by internal, non-tech users.",
+    "description": "Top portion of screen plays one of the three, geo-aware live video selections in the boxes across the middle of the screen.  The videos, and the news feeds that cycle in the \"What's New?\" area, are easily updated by non-tech folks in Corporate Marketing (internal portal provided).",
     "image": "projects/img/altera/alteraNewJp.png"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 9,
+  "fields": {
+    "project": 1,
+    "order": 1,
+    "title": "User Interface to create modules for Home Pages of Yahoo! websites",
+    "description": "In this screen-shot, pre-defined templates for the Pulse module of the narrow version of the US Front Page (www.yahoo.com) are displayed.",
+    "image": "projects/img/dfly/dflyPulse.jpg"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 10,
+  "fields": {
+    "project": 1,
+    "order": 2,
+    "title": "User Docs: Tool Overview",
+    "description": "Snippet from the integrated User Documentation",
+    "image": "projects/img/dfly/userDoc0.png"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 11,
+  "fields": {
+    "project": 1,
+    "order": 3,
+    "title": "User Docs: Terms & Templates used for Package/Module Creation",
+    "description": "Snippet from the integrated User Documentation",
+    "image": "projects/img/dfly/userDoc1.png"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 12,
+  "fields": {
+    "project": 1,
+    "order": 4,
+    "title": "User Docs: Workflow to create module from existing template",
+    "description": "Snippet from the integrated User Documentation",
+    "image": "projects/img/dfly/userDoc2.jpg"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 13,
+  "fields": {
+    "project": 1,
+    "order": 5,
+    "title": "Country/Market Selection",
+    "description": "Each country (market) supported will have it's own set of webpages (properties), positions on those webpages (modules), and templates for use in creating a new module for that particular location",
+    "image": "projects/img/dfly/selMarket.jpg"
+  }
+},
+{
+  "model": "projects.slide",
+  "pk": 14,
+  "fields": {
+    "project": 1,
+    "order": 6,
+    "title": "Yahoo! Webpage/Property Selection",
+    "description": "Each country (market) supported will have it's own set of webpages (properties), positions on those webpages (modules), and templates for use in creating a new module for that particular location",
+    "image": "projects/img/dfly/selProperty.jpg"
   }
 },
 {

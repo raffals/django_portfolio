@@ -17,7 +17,7 @@
         <p class="card-text">{{ project.description|safe }}</p>
         <br>
         <h5>Technology used:</h5>
-        <p>{{ project.technology }}</p>
+        <p>{{ project.technology|safe }}</p>
         <a href="{% url 'projects:project_slides' project.pk %}" class="btn btn-primary">Check it out</a>
         <a href="{% url 'projects:all_projects' %}"  class="btn btn-primary">Back to Portfolio</a>
     </div>

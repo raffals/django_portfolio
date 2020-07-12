@@ -52,31 +52,42 @@
   "fields": {
     "order": 2,
     "title": "Altera Corporate Website Redesign",
-    "description": "Development and management of separate websites for US, Japan and China, as well as secure and non-secure domains for each of those sites (6 total sites).  Each site featured geo-specific videos by region of country or groups of country (eg, European-only countries), integrated social media and podcasts and press releases as animated news feeds, etc.  State-of-the-art at that time, these features exceeded internal- and customer- generated targets for customer support and satisfaction, and modernized Altera's web presence and services.",
-    "technology": "End-to-end development in Java, JavaScript, Flash, HTML/CSS.  Significant back-end, infrastructure programming (Perl, Java) to interface with existing CMS, and other internal legacy processes, yet provide a smooth and flexible path for robust upward expansion.",
+    "description": "Development and management of separate websites for US, Japan and China, as well as secure and non-secure domains for each of those sites (6 total sites, each with hundreds of thousands of users per day).  Each site featured geo-specific videos by location of country or groups of countries (eg, European-only countries), integrated podcasts and press releases as animated news feeds, social media, etc.  State-of-the-art at that time, these features exceeded internal- and customer- generated targets for customer support and satisfaction, and modernized Altera's web presence and services.",
+    "technology": "End-to-end development in Java, JavaScript, Flash, HTML/CSS.  Significant back-end, infrastructure programming (Perl, Java) to interface with existing CMS and other internal legacy processes, and provide a smooth and flexible path for robust upward expansion.",
     "image": "projects/img/alteraWebThumb.png"
+  }
+},
+{
+  "model": "projects.slideshowproject",
+  "pk": 3,
+  "fields": {
+    "order": 3,
+    "title": "Altera DevOps: Corporate Web Server Management Application",
+    "description": "Allows team's developers and non-programmers to update important configuration files on various Altera private/development and public/production web servers via a simple web interface. Changes are verified in a safe, virtual environment before touching the official server files.  Then, the config files on multiple development and production servers are updated and reloaded with the verified changes applied, all with a couple mouse clicks. A log of which users made which changes is created, with hooks to automate backing out of these changes is problems are encountered.<br />\r\n<br />\r\nThis DevOps tool <strong>eliminated human error and related server security exposures</strong> (a crucial 15% reduction)!  It also <strong>reduced the time/effort required from the online marketing group by about 1200%!</strong> <em>(Previously 4 different config files on 3 different servers - 12 files total - would need to be hand-edited, manually verified, and manually uploaded to the proper servers, one at a time. Then, each server would need to be manually restarted to load the new changes.)</em>",
+    "technology": "Java, HTML5/CSS3, JavaScript, jQuery, and Apache web server, with integrated help and documentation for both users and developers,<br />\r\n<br />\r\n<strong><em>This tool was not only solely of my design, but also of my conception and championing:  The team had suffered with this problem for many years, since nobody believed this tool was technically feasible within the existing infrastructure (let alone safe). As such, it required diligent lobbying with management for the project's approval.</em></strong>",
+    "image": "projects/img/alteraDevOpsThumb.png"
   }
 },
 {
   "model": "projects.slide",
   "pk": 1,
   "fields": {
-    "project": 2,
+    "project": 3,
     "order": 1,
-    "title": "BEFORE REDESIGN: Altera's USA Corporate Home Page",
-    "description": "",
-    "image": "projects/img/altera/alteraUSpre2-4-12.png"
+    "title": "DevOps Tool: Partial UI for Web Server Management",
+    "description": "Facilitates updates to various private (development) and public (production) web server configuration files, validation for correctness and security exposures, logging and backing out of changes, as well as automated restarting of servers to load the validated updates.",
+    "image": "projects/img/altera/sfu1.png"
   }
 },
 {
   "model": "projects.slide",
   "pk": 2,
   "fields": {
-    "project": 2,
+    "project": 3,
     "order": 2,
-    "title": "AFTER REDESIGN: Altera's USA Corporate Home Page",
-    "description": "Top portion of screen plays one of the three, geo-aware live video selections in the boxes across the middle of the screen.  The videos, and the news feeds that cycle in the \"What's New?\" area are easily updated by internal, non-tech users.",
-    "image": "projects/img/altera/alteraNewUS.png"
+    "title": "DevOps Tool: Full UI for Web Server Management",
+    "description": "Facilitates updates to various private (development) and public (production) web server configuration files, validation for correctness and security exposures, logging and backing out of changes, as well as automated restarting of servers to load the validated updates.",
+    "image": "projects/img/altera/sfu2.png"
   }
 },
 {

@@ -9,7 +9,8 @@
     href="mailto:raffals@earthlink.net?Subject=Response to your Python portfolio">Rich Raffals</a></h4>
     <h6 class="pl-3 pr-3 font-italic text-center">This portfolio's one of a few
     shelter-in-place projects I coded in Python.  It's a work-in-progress (more
-    projects to be added soon!) that utilizes the Django MVC-like framework and the Bootstrap responsive CSS framework.</h6>
+    projects to be added soon!) that utilizes the Django MVC-like framework and the
+    Bootstrap responsive design CSS framework.</h6>
     <div class="p-4 row">
     {% for project in projects %}
         <div class="col-md-4">
@@ -23,14 +24,16 @@
                     <a href="{% url 'projects:project_detail' project.pk %}" class="btn btn-primary">Project Details</a>
                 </div>
             </div>
-        </div>
+			</div>
+	{% empty %}
+		<h5>Sorry, there are no projects in this list yet</h5>
     {% endfor %}
 	</div>
 </div>
 
 <div class="container-fluid">
     <div class="alert alert-info">
-	    <h5 class="font-italic text-center">Proprietary Projects</h5>
+	    <h5 class="font-italic text-center">Select Proprietary Projects</h5>
 	</div>
 </div>
 
@@ -49,6 +52,8 @@
                 </div>
             </div>
         </div>
+	{% empty %}
+		<h5>Sorry, there are no projects in this list yet</h5>
     {% endfor %}
     </div>
 </div>

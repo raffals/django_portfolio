@@ -25,7 +25,7 @@ class SlideShowProject(models.Model):
 
 class Slide(models.Model):
     def __str__(self):  # Print slide title in admin interface
-        return self.project.title + ": " + self.title
+        return self.project.title.upper() + " - " + self.title
 
     project = models.ForeignKey(SlideShowProject, on_delete=models.CASCADE)
     order = models.PositiveSmallIntegerField(default=1)

@@ -40,9 +40,9 @@ LOCAL:
 
 * Make changes
   * May include (if made changes to DB via JSON):
-	* ./manage.py loaddata projectsSlides.json 
+	* ./manage.py loaddata projects.json 
   * May include (if made direct changes to DB):
-	* ./manage.py dumpdata --indent 2 projects > projectsSlides.json
+	* ./manage.py dumpdata --indent 2 projects > projects.json
   * May include (if made significant changes to models.py):
 	* python manage.py makemigrations
 	* python manage.py migrate

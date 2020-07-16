@@ -30,33 +30,38 @@
   </head>
   <body>
 
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-        <a class="navbar-brand" href="{% url 'projects:all_projects' %}">Portfolio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  <!-- Navbar brand -->
+	  <a class="navbar-brand" href="{% url 'projects:all_projects' %}">Portfolio</a>
+
+	  <!-- Collapse button -->
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <!-- Collapsible content -->
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<!-- Links -->
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
 			  <a class="navbar-brand" href="http://awakenthemagic.com/resume/RRaffalsWebTechRes.pdf" target="_blank">Resume/CV</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
 			  <a class="navbar-brand"
           href="http://awakenthemagic.com/resume/RichRaffalsProfReviews.pdf" target="_blank">Professional Reviews</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
 			  <a class="navbar-brand" href="mailto:raffals@earthlink.net?Subject=Response to your Python portfolio">Contact</a>
             </li>
             <li class="nav-item">
-			  <a class="navbar-brand" href="#" onclick="window.history.back()">Back</a>
+			  <a class="navbar-text" href="javascript:history.go(-1)">Back</a>
 <!--              <script>document.write('<a class="navbar-brand" href="' + document.referrer + '">Back</a>');</script>-->
             </li>
           </ul>
         </div>
 
-    </div>
   </nav>
 
   <div class="container">

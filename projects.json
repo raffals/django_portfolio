@@ -6,7 +6,7 @@
     "order": 1,
     "title": "The DORC",
     "description": "One of the personal projects I coded in Python programing language during shelter-in-place.  Gives new meaning to the phrase, \"I made a new friend!\"  ;-)  The Digital ORaCle (DORC) takes typed or spoken questions, does web scraping to answer, and speaks back utilizing any of 3 open-source voice synthesizers.  DORC can utilize 2 different GUI's to interact with the user visually.",
-    "technology": "Python, Speech Recognition/Synthesis, Web Scraping, gTTS/pyttsx3/espeak, PySimpleGUI/wxPython",
+    "technology": "Python, Speech Recognition/Synthesis, Web Scraping, gTTS/pyttsx3/espeak, PySimpleGUI/wxPython on Unix/OSX/git platform",
     "image": "projects/img/dorcThumb.png",
     "project_link": "https://youtu.be/-FKYr1IrkoE?t=6"
   }
@@ -30,7 +30,7 @@
     "order": 3,
     "title": "Back-End Web Search App",
     "description": "Coded in a few hours: Back-end Web Application to demonstrate solid, \"production-ready\" software engineering practices (well-structured, maintainable, modular, secure, and well-commented code)",
-    "technology": "Object-Oriented PHP, MySQL, MVC, Web Scraping, HTML/CSS",
+    "technology": "Object-Oriented PHP, MySQL, MVC, Web Scraping, HTML/CSS on Linux platforms",
     "image": "projects/img/webSearchThumb.png",
     "project_link": "http://www.awakenthemagic.com/tech/portfolio/webSearch/"
   }
@@ -42,7 +42,7 @@
     "order": 3,
     "title": "Yahoo! Front Page/ International: Advanced Content Management App for Yahoo! Home Pages World-wide",
     "description": "Non-tech creatives who don't necessarily know HTML, CSS, etc. (both internal employees and chosen vendors) used this application to create content modules for use on Yahoo!'s US Front Page -- the most trafficked page on the internet at that time.<br />\r\n<br />This Web App was coded by hand from start to finish.  It has a built-in, real-time preview system for both the module being developed, and how the current Front Page (at www.yahoo.com) will look when the new module is added.  An integrated Help/FAQ system is also built in.  At time of completion, this internal tool was also already planned for use by Yahoo!'s Argentina, Mexico, Singapore, and Telemundo Front Pages, as well as by other groups with pages subordinate to both the US Front Page and some of the foreign Yahoo! Front Pages.",
-    "technology": "Object-Oriented PHP, Object-Oriented JavaScript, AJAX/JSON, MySQL DBs, Object Relational Mapping (ORM), Yahoo! User Interface (YUI) open-source JavaScript and CSS libraries, XHTML/CSS, and XML/XSLT templates on Unix/Linux/CVS platforms",
+    "technology": "Object-Oriented PHP, Object-Oriented JavaScript, AJAX/JSON, MySQL DBs, Object Relational Mapping (ORM), Yahoo! User Interface (YUI) open-source JavaScript and CSS libraries, XHTML/CSS, and XML/XSLT templates on Unix/Linux/Subversion platforms",
     "image": "projects/img/dflyThumb.jpg"
   }
 },
@@ -53,7 +53,7 @@
     "order": 1,
     "title": "Altera Online Marketing: Corporate Website Redesign",
     "description": "Development and management of separate websites for US, Japan and China, as well as secure and non-secure domains for each of those sites (6 total sites, each with hundreds of thousands of users per day).  Each site featured geo-specific videos by location of country or groups of countries (eg, European-only countries), integrated podcasts and press releases as animated news feeds, social media, etc.  State-of-the-art at that time, these features exceeded internal- and customer- generated targets for customer support and satisfaction, and modernized Altera's web presence and services.",
-    "technology": "End-to-end development in Java, JavaScript, Flash, HTML/CSS.  Significant back-end, infrastructure programming (Perl, Java) to interface with existing CMS and other internal legacy processes, and provide a smooth and flexible path for robust upward expansion.",
+    "technology": "End-to-end development in Java, JavaScript, Perl, Flash, HTML/CSS on Unix & Windows platforms.  Significant back-end, infrastructure programming (Perl, Java) to interface with existing CMS and other internal legacy processes, and provide a smooth and flexible path for robust upward expansion.",
     "image": "projects/img/alteraWebThumb.png"
   }
 },
@@ -63,8 +63,8 @@
   "fields": {
     "order": 4,
     "title": "Altera DevOps: Corporate Web Server Management App",
-    "description": "Allows team's developers and non-programmers to update important configuration files on various Altera private (development) and public (production) web servers via a simple web interface. Changes are verified in a safe, virtual environment before touching the official server files.  Then, the config files on multiple development and production servers are updated and reloaded with the verified changes applied, all with a couple mouse clicks. A log of which users made which changes is created, with hooks to automate backing out of these changes is problems are encountered.<br />\r\n<br />\r\nThis DevOps tool <strong><u>eliminated</u> corporate website downtime due to human error</strong> - a crucial 15% reduction!  It also <strong>reduced time & effort spent by Online Marketing group on server management by about 1200%!</strong> <em><br />(Previously, 4 different config files on 3 different servers - 12 files total - would need to be hand-edited, manually verified, and manually uploaded to the proper servers, one at a time. Then, each server would need to be manually restarted to load the new changes.)</em>",
-    "technology": "Java, HTML5/CSS3, JavaScript, jQuery, and Apache web server, with integrated help and documentation for both users and developers.<br />\r\n<br />\r\n<strong><em>This tool was my idea: The team had suffered with this problem for years, since nobody believed a tool of this sort was technically feasible within the existing infrastructure (let alone safe). As such, it required diligent lobbying with management for the project's approval, as well as some innovative technical back-flips.</em></strong>",
+    "description": "Allows team's developers and non-programmers to update important configuration files on various Altera private (development) and public (production) web servers via a simple web interface. Changes are verified in a safe, virtual environment before touching the official server files.  Then, the config files on multiple development and production servers are updated and reloaded with the verified changes applied, all with a couple mouse clicks. A log of which users made which changes is created, with hooks to automate backing out of these changes in case of problems.<br />\r\n<br />\r\nThis DevOps tool <strong><u>eliminated</u> corporate website downtime due to human error</strong> - a crucial 15% reduction!  It also <strong>reduced time & effort spent by Online Marketing group on server management by about 1200%!</strong> <em><br />(Previously, 4 different config files on 3 different servers - 12 files total - would need to be hand-edited, manually verified, and manually uploaded to the proper servers, one at a time. Then, each server would need to be manually restarted to load the new changes.)</em>",
+    "technology": "Java, HTML5/CSS3, JavaScript, jQuery, and Apache web server, on Unix & Windows platforms - with integrated help and documentation for both users and developers.<br />\r\n<br />\r\n<strong><em>This tool was my idea: The team had suffered with this problem for years, since nobody believed a tool like this was technically feasible within the existing infrastructure (let alone safe). As such, it required diligent evangelizing with management for the project's approval, as well as some innovative technical back-flips.</em></strong>",
     "image": "projects/img/alteraDevOpsThumb.png"
   }
 },
@@ -75,7 +75,7 @@
     "order": 2,
     "title": "Yahoo! Mail: Spam/Hacker Email Reputation Manager & DevOps MVC Framework",
     "description": "Next-generation Anti-Spam Web App manages both human-specified and real-time, proprietary, AI-model-generated email server (domain) reputations. This is a 100% AJAX Web Application built on top of an extremely lightweight, reusable, Model-View-Controller (MVC) architecture framework.<br />\r\n<br />\r\nBoth the Anti-Spam App, and the MVC framework upon which it's built, were hand-coded from zero to completion.  A built-in system for debug, testing, and for developers to learn what's going on under the hood is included. The framework is a template for rapid development and deployment of future tools, and its structure and extensive documentation teaches state-of-the-art MVC collaboration and software design practices.<br />\r\n<br />\r\n<em>(The MVC methodology framework was not part of the original project specifications: It was my idea to push things ever further forward at Yahoo! - enthusiastically approved and supported by management!)</em><br />\r\n<br />\r\n<strong>ANTI-SPAM BACKGROUND</strong>: <em>When anyone, anywhere in the world, clicks on 'Report as Spam' or 'Not Spam' in Yahoo! Mail, Yahoo! Messenger, etc... that information (along with similar info from several other sources) goes into a huge, distributed database.  This immense database tracks information like the 'spammer/hacker reputation' of the sender and the server (domain) where the email originated, all minute by minute, 24/7, world-wide, in real time.<br />\r\n<br />\r\nThe tools I developed for the Mail/Anti-Spam team (one of which is highlighted here) allow Engineers, Managers, and the Customer Care team (the folks that answer the phones at Yahoo!) to access that wealth of information in a simple, intuitive, secure and expedient manner.  This allows Customer Care to tell you just what's happening when you call in, Engineers to respond quickly to new spam/hacker/phishing threats as they arise, and Managers to analyze spam trends as well as effectiveness of Yahoo! Anti-Spam technologies and protocols.</em>",
-    "technology": "Object-Oriented PHP, Object-Oriented JavaScript, AJAX/JSON, jQuery JavaScript library and plugins, MySQL DBs, Object Relational Mapping (ORM), XHTML/CSS, on Unix/Linux/CVS platforms",
+    "technology": "Object-Oriented PHP, Object-Oriented JavaScript, AJAX/JSON, jQuery JavaScript library and plugins, MySQL DBs, Object Relational Mapping (ORM), XHTML/CSS, on Unix/Linux/Subversion platforms",
     "image": "projects/img/sorcererThumb.png"
   }
 },

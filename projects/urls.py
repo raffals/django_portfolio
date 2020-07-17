@@ -21,7 +21,8 @@ app_name = 'projects'
 urlpatterns = [
     # If pointed to /projects, then point forward to views.py
     path('', views.all_projects, name="all_projects"),
-    # <> grabs a portion of url & pass forward to app as var pk in views.project_detail
+    # <> grabs a portion of url & pass forward to app as arg pk in
+    #    views/templates (eg, to views.project_detail)
     # "int" = path converter (gives error unless there's an int at this point in path)
     path('<int:pk>', views.project_detail, name="project_detail"),
     path('s<int:pk>', views.slide_project_detail, name="slide_project_detail"),

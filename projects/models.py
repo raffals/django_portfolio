@@ -34,7 +34,7 @@ class Slide(models.Model):
         return self.project.title.upper() + " - " + self.title
 
     class Meta:
-        ordering = ['order']
+        ordering = ['project', 'order']
 
     project = models.ForeignKey(SlideShowProject, on_delete=models.CASCADE)
     order = models.PositiveSmallIntegerField(default=1)

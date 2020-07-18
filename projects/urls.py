@@ -25,6 +25,7 @@ urlpatterns = [
     #    views/templates (eg, to views.project_detail)
     # "int" = path converter (gives error unless there's an int at this point in path)
     path('<int:pk>', views.project_detail, name="project_detail"),
+    path('v<int:pk>', views.video_project_detail, name="video_project_detail"),
     path('s<int:pk>', views.slide_project_detail, name="slide_project_detail"),
     path('s<int:pk>/slides', views.project_slides, name="project_slides"),
 ]

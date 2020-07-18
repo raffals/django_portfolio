@@ -1,8 +1,9 @@
 from django.contrib import admin
-from projects.models import Project, SlideShowProject, Slide
+from projects.models import Project, VideoProject, SlideShowProject, Slide
 
 # Register your models here.
 admin.site.register(Project)
+admin.site.register(VideoProject)
 admin.site.register(SlideShowProject)
 admin.site.register(Slide)
 

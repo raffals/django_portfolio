@@ -8,17 +8,31 @@
     <h4 class="pt-2 text-center">Sample Software Projects | <a
     href="mailto:raffals@earthlink.net?Subject=Response to your Python portfolio">Rich Raffals</a></h4>
 
-    <h6 class="pl-3 pr-3 text-center">This portfolio's one of a few shelter-in-place
-    projects I coded in Python.<br />While incomplete (more projects coming!), it
-    demonstrates the quality of my work...and my ability to quickly learn/utilize
-    new technologies (eg, the Django MVC-like framework, the Bootstrap responsive
-    design CSS framework, deployment/continuous integration of a Python Web App on
-    Linux/git/GitHub platform).<br
-    /><span class="font-italic"><u>NOTE</u>: While some features highlighted
-    in some projects are now common-place, most were at the bleeding-edge of the
-    state-of-the-art at the time!</span></h6>
+    <h6 class="pl-3 pr-3 font-italic text-center">This portfolio's one of a few
+    shelter-in-place projects I coded in Python.<br />While incomplete (more
+    projects coming!), it demonstrates the quality of my work...and my ability to
+    quickly learn/utilize new technologies (eg, the Django MVC-like framework, the
+    Bootstrap responsive design CSS framework, deployment/continuous integration of
+    a Python Web App on Linux/git/GitHub platform).</h6>
 
       <div class="p-4 row">
+    {% for project in video_projects %}
+        <div class="col-md-4">
+            <div class="card mb-2">
+                <a href="{% url 'projects:video_project_detail' project.pk %}">
+                    <img class="card-img-top" src="{% static project.image %}" alt="screenshot of {{ project.title }} project">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">{{ project.title }}</h5>
+                    <p class="card-text">{{ project.description|safe|truncatewords:45 }}</p>
+				  <a href="{% url 'projects:video_project_detail' project.pk %}" class="btn btn-primary">Project Details</a>
+                </div>
+            </div>
+			</div>
+	{% empty %}
+		<h6>Sorry, there are no projects in this list yet</h6>
+    {% endfor %}
+
     {% for project in projects %}
         <div class="col-md-4">
             <div class="card mb-2">
@@ -28,13 +42,14 @@
                 <div class="card-body">
                     <h5 class="card-title">{{ project.title }}</h5>
                     <p class="card-text">{{ project.description|safe|truncatewords:45 }}</p>
-                    <a href="{% url 'projects:project_detail' project.pk %}" class="btn btn-primary">Project Details</a>
+				  <a href="{% url 'projects:project_detail' project.pk %}" class="btn btn-primary">Project Details</a>
                 </div>
             </div>
 			</div>
 	{% empty %}
-		<h5>Sorry, there are no projects in this list yet</h5>
+		<h6>Sorry, there are no projects in this list yet</h6>
     {% endfor %}
+
 	</div>
 </div>
 
@@ -60,7 +75,7 @@
             </div>
         </div>
 	{% empty %}
-		<h5>Sorry, there are no projects in this list yet</h5>
+		<h6>Sorry, there are no projects in this list yet</h6>
     {% endfor %}
     </div>
 </div>

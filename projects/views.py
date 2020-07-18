@@ -1,6 +1,6 @@
 # from django.http import HttpResponse
 from django.shortcuts import render
-from projects.models import Project, SlideShowProject, Slide
+from projects.models import Project, VideoProject, SlideShowProject, Slide
 
 def project_list(request):
     # Remember double folder structure in templates dir = need to pre-pend projects/ to template file
@@ -10,13 +10,14 @@ def project_list(request):
 def all_projects(request):
     # Query the db to return all project objects
     projects = Project.objects.all()
+    video_projects = VideoProject.objects.all()
     slide_projects = SlideShowProject.objects.all()
     # print(projects)
     # Above command prints to console:
     # <QuerySet [<Project: Project object (1)>, <Project: Project object (2)>, <Project: Project object (3)>]>
     #
     # Remember double folder structure in templates dir = need to pre-pend projects/ to template file
-    return render(request, 'projects/all_projects.html', {'projects': projects, 'slide_projects': slide_projects})
+    return render(request, 'projects/all_projects.html', {'projects': projects, 'video_projects': video_projects, 'slide_projects': slide_projects})
 
 def project_detail(request, pk):
     # Query the db to return project id=pk object
@@ -24,10 +25,14 @@ def project_detail(request, pk):
     #print(project)
     return render(request, 'projects/project_detail.html', {'project': project})
 
+def video_project_detail(request, pk):
+    # Query the db to return project id=pk object
+    project = VideoProject.objects.get(pk=pk)
+    return render(request, 'projects/video_project_detail.html', {'project': project})
+
 def slide_project_detail(request, pk):
     # Query the db to return project id=pk object
     project = SlideShowProject.objects.get(pk=pk)
-    print(project)
     return render(request, 'projects/slide_project_detail.html', {'project': project})
 
 def project_slides(request, pk):

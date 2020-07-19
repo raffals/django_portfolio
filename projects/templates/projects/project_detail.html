@@ -18,8 +18,10 @@
         <br>
         <h5>Technology used:</h5>
         <p>{{ project.technology|safe }}</p>
-        <a href="{{ project.project_link }}" class="btn btn-primary" target="_blank">Check it out</a>
-        <a href="{% url 'projects:all_projects' %}"  class="btn btn-primary">Back to Portfolio</a>
+	    <div class="text-center">
+		  <a href="{{ project.project_link }}" class="btn btn-primary" target="_blank">Check it out</a>
+		  <a href="{% url 'projects:all_projects' %}"  class="btn btn-primary">Back to Portfolio</a>
+		</div>
     </div>
 </div>
 

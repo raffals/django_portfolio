@@ -7,8 +7,9 @@
 <div class="card-header text-center font-italic">{{ project.title }}</div>
 
 <div class="p-4 row">
+  <p class="font-italic">Click on video to see demo if browser blocks auto-start...</p>
     <div class="col-md-8 embed-responsive embed-responsive-16by9">
-	  <video height="772" width="720" autoplay playsinline controls loop
+	  <video height="772" width="720" onloadeddata="this.play();" playsinline controls loop
 	      poster="{% static project.image %}"
 	      class="embed-responsive-item">
 	    <source src="{% static project.video %}" type="video/mp4">

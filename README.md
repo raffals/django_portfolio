@@ -52,8 +52,9 @@ LOCAL:
 
 <hr />
  
-PRODUCTION: PythonAnywhere
+PRODUCTION: PythonAnywhere (Bash console)
 
+* workon myvirtualenv
 * git pull --ff-only 
 * May include (If change to static files - eg, images):
   * python manage.py collectstatic 

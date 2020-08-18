@@ -60,7 +60,7 @@ PRODUCTION: PythonAnywhere (Bash console)
 * May include (If change to static files - eg, images):
   * python manage.py collectstatic 
   * If a file's missing, use: python manage.py findstatic <filename\>
-* Reload raffals.pythonanywhere.com
+* Reload raffals.pythonanywhere.com via: https://www.pythonanywhere.com/user/raffals/webapps/
 
 <hr />
 

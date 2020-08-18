@@ -54,6 +54,7 @@ LOCAL:
  
 PRODUCTION: PythonAnywhere (Bash console)
 
+* cd django_portfolio
 * workon myvirtualenv
 * git pull --ff-only 
 * May include (If change to static files - eg, images):

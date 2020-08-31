@@ -38,6 +38,7 @@ PRODUCTION: Heroku
 
 LOCAL:
 
+* vea = source .venv/bin/activate
 * Make changes
   * May include (if made changes to DB via JSON):
 	* ./manage.py loaddata projects.json 
@@ -46,6 +47,7 @@ LOCAL:
   * May include (if made significant changes to models.py):
 	* python manage.py makemigrations projects
 	* python manage.py migrate
+* TEST: djrun = python manage.py runserver (see: http://127.0.0.1:8000/projects/)
 * git add
 * git commit
 * git push

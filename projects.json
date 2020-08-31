@@ -19,7 +19,7 @@
     "order": 1,
     "title": "Front-End SmartMeter Data Web App",
     "description": "Coded in a couple days: As part of the interview process, a Smart Grid company gave me 2 months of Smart Meter Data and asked me to write a web application to display their data in a way that would be intuitive for their customers, in any browser. It was a \"take home\" project, for which they gave me a couple days to complete.<br />\r\n<br /><em><strong>The \"Info\" button in the App gives access to my code, a Code Critique from the interviewer, and further App Details.</strong></em>",
-    "technology": "Responsive UI Design, Object-Oriented JavaScript (hand-coded, un-minimized and commented by request), JSON, jQuery, HTML/CSS<br />\r\n<br />\r\n<em>Features highlighted here are now standard (eg, Responsive Design, dynamic DOM modification, graphical analytics dashboard that responds live to mouse input, in-place text & graphical updates without page reload).  Obviously, the state-of-the-art is a moving target.  Since these were novel ideas at the time, however, I believe this demonstrates the perspicacity I'd bring to tech decisions for your projects.</em>",
+    "technology": "Responsive UI Design, Object-Oriented JavaScript (hand-coded, un-minimized and commented by request), JSON, jQuery, Responsive HTML/CSS<br />\r\n<br />\r\n<em>Features highlighted here are now standard (eg, Responsive Design, dynamic DOM modification, graphical analytics dashboard that responds live to mouse input, in-place text & graphical updates without page reload).  Obviously, the state-of-the-art is a moving target.  Since these were novel ideas at the time, however, I believe this demonstrates the perspicacity I'd bring to tech decisions for your projects.</em>",
     "image": "projects/img/emThumb.png",
     "project_link": "http://www.awakenthemagic.com/tech/portfolio/em/"
   }
@@ -37,12 +37,24 @@
   }
 },
 {
+  "model": "projects.project",
+  "pk": 3,
+  "fields": {
+    "order": 3,
+    "title": "Facebook-like Social Networking Web App for Teens",
+    "description": "Finding Favorites was the dream and vision of a high school student, who drove the specifications of the functionality, design and color scheme.  Together, we created a fun and highly-secure social networking web application that allowed her and her classmates to connect around their favorite things (favorite music, foods, hobbies, etc) and interact privately online.  The project was funded by her parents, who hired me to develop the site and work with her directly (so she could learn how websites and web applications function and come into being).<br />\r\n<br />\r\nThe application was integrated with Facebook (allowing registration and login via Facebook account), and functioned similarly to Facebook.  It included a private administration web app functionality that allowed for suspending or deleting users, direct addition/modification of different favorites and categories of favorites, etc.<br />\r\n<br />\r\nUnfortunately, the work we did on that site - and the extensive database of users and favorites they built over the years it was in use - has been lost.  However, knowing Facebook, you can easily imagine how it worked.  You can still see a bit of what the site looked like in the screen capture image (shows how login-by-facebook option popped up registered facebook users live as one typed the username; blurred for privacy).",
+    "technology": "Object-Oriented PHP and AJAX/JavaScript/jQuery, ORM/MySQL DB, MVC, Responsive HTML/CSS UI, and a lot of coded security measures on a Unix platform",
+    "image": "projects/img/ffThumb.jpg",
+    "project_link": "http://www.awakenthemagic.com/tech/portfolio/ffHome.png"
+  }
+},
+{
   "model": "projects.slideshowproject",
   "pk": 1,
   "fields": {
     "order": 3,
     "title": "Yahoo! Front Page/ International: Advanced Content Management App for Yahoo! Home Pages World-wide",
-    "description": "<strong><u>Breakthrough Technology</u>: 1st time in Yahoo! history that <em>non-technical</em> creatives can modify the extremely technologically-complex US Front Page at <u>www.Yahoo.com</u> (most trafficked page on the internet at that time)!</strong> Enables select employees and partners to easily create and deploy secure, reliable content modules (including variable/ streaming content via an RSS feed) for any Yahoo! Home Page (Autos, Music, etc), in any country.<br />\r\n<br />\r\nUpon completion, this internal tool was also already planned for use by Yahoo!'s Argentina, Mexico, Singapore, and Telemundo Front Page teams, as well as by other groups with pages subordinate to both the US Front Page and some of the foreign Yahoo! Front Pages.<br />\r\n<br />This Web App was hand-coded from start to finish.  It has a built-in, real-time preview system to show both the module being developed, as well as to show how the updated Front Page (eg, at www.Yahoo.com) will look when the new module is added.  An integrated Help/FAQ system is also built in.",
+    "description": "<strong><u>Breakthrough Technology</u>: First time in Yahoo! history that <em>non-technical</em> creatives can modify the extremely technologically-complex US Front Page at <u>www.Yahoo.com</u> (most trafficked page on the internet at that time)!</strong> Enables select employees and partners to easily create and deploy secure, reliable content modules (including variable/ streaming content via an RSS feed) for any Yahoo! Home Page (Autos, Music, etc), in any country.<br />\r\n<br />\r\nUpon completion, this internal tool was also already planned for use by Yahoo!'s Argentina, Mexico, Singapore, and Telemundo Front Page teams, as well as by other groups with pages subordinate to both the US Front Page and some of the foreign Yahoo! Front Pages.<br />\r\n<br />This Web App was hand-coded from start to finish.  It has a built-in, real-time preview system to show both the module being developed, as well as to show how the updated Front Page (eg, at www.Yahoo.com) will look when the new module is added.  An integrated Help/FAQ system is also built in.",
     "technology": "Object-Oriented PHP, Object-Oriented JavaScript, AJAX/JSON, MySQL DBs, Object Relational Mapping (ORM), Yahoo! User Interface (YUI) open-source JavaScript and CSS libraries, XHTML/CSS, and XML/XSLT templates on Unix/Linux/CVS platforms<br />\r\n<br />\r\n<em>Features highlighted here are now standard (eg, ORM, Templating, GUI-driven, WSIWYG Website Content Design and Management System for non-tech creatives, including live previews created by fetching/parsing the code from the existing web page).  Obviously, the state-of-the-art is a moving target.  Since these were novel ideas at the time, however, I believe this demonstrates the perspicacity I'd bring to tech decisions for your projects.</em>",
     "image": "projects/img/dflyThumb.jpg"
   }
